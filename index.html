@@ -6,10 +6,26 @@
 <body>
     <h1>Notable Tourist Locations in Greece</h1>
     <h2>Acropolis</h2>
-    <p>This beautiful tourist location </p>
+    <img src="img/iuliia-isakova-MKWooq5QEjA-unsplash.jpg" alt="Acropolis" width="350px" height="350px">
+    <p></p>This beautiful historical location that
     <h2>Santorini</h2>
-
-
-
+    <p>Want more information? Let's chat!</p>
+    <form action="process.php" method="POST">
+        <div> 
+            <label>Name</label>
+            <input type="text" name="Name">
+        </div>
+        <br>
+        <div>
+            <label>E-mail</label>
+            <input type="email" name="E-mail">
+        </div>
+        <br>
+        <div>
+            <label>Message</label>
+            <textarea name="Message" placeholder="Enter your message here"></textarea>
+        </div>
+        <input type="submit" name="submit" value="Submit">
+    </form>
 </body>
 </html>
