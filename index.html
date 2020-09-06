@@ -2,13 +2,22 @@
 <html>
     <head>
         <title>Tourist's Guide to Greece</title>
+        <style>
+            body {background-color: lightblue;}
+            header {padding: 50px;
+            border: 1px solid black}
+        </style>
     </head>
 <body>
-    <h1>Notable Tourist Locations in Greece</h1>
-    <h2>Acropolis</h2>
-    <img src="img/iuliia-isakova-MKWooq5QEjA-unsplash.jpg" alt="Acropolis" width="350px" height="350px">
-    <p></p>This beautiful historical location that
-    <h2>Santorini</h2>
+    <header id="main-header">
+        <h1>Notable Tourist Locations in Greece</h1>
+    </header>
+    <section>
+        <h2>Acropolis</h2>
+        <img src="img/iuliia-isakova-MKWooq5QEjA-unsplash.jpg" alt="Acropolis" width="350px" height="350px">
+        <p>This beautiful historical location that</p>
+        <h2>Santorini</h2>
+    </section>
     <p>Want more information? Let's chat!</p>
     <form action="process.php" method="POST">
         <div> 
@@ -27,5 +36,8 @@
         </div>
         <input type="submit" name="submit" value="Submit">
     </form>
+    <footer>
+        <p> &copy; 2020 Get Coding</p>
+    </footer> 
 </body>
 </html>
