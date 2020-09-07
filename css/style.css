@@ -1,42 +1,84 @@
 body{
-    background-color: lightskyblue;
+    background-color: white;
 }
-.box-1{
-    color:whitesmoke;
+#main-header{
+    background-color: rgb(112, 186, 189);
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     text-align: center;
-    text-decoration: underline;
+}
+#navbar{
+    text-align: right;
+    background-color:rgb(112, 186, 189);
+    padding:25px;
+    list-style:none;
+}
+#navbar ul{
+    list-style:none;
+    text-decoration: none;
+}
+#navbar li{
+    display:inline;
+    text-align:right;
+}
+#navbar a{
+    color:whitesmoke;
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    list-style:none;
+    text-decoration:none;
+    padding-right:15px;
 }
 .section1{
-    color:whitesmoke;
+    color:rgb(106, 153, 172);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
+    font-size: 34px;
     text-align: center;
+    padding:25px;
+}
+.section2{
+    margin-top: 100px;
 }
 h2{
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 24px;
 }
 .clr{
     clear:both;
 }
 .box-20{
-    font-size: 12px;
+    font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #DAA520
+    color: #DAA520;
 }
 .box-21{
     color: black;
 }
+.p-box{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    border: 1px solid whitesmoke;
+    background-image: url('../img/santorini-1700274_640.jpg');
+    background-position: 400px 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .formsub{
-    color:magenta;
+    color:grey;
     padding: 20px;
     padding-bottom: 20px;
+    background-color:rgb(112, 186, 189);
 }
 label{
     display:block;
+    color:whitesmoke;
 }
 input [type="text"] , textarea {
     padding:8px;
@@ -52,8 +94,25 @@ input [type="text"] , textarea {
 .block {
     float: left;
     width: 50%;
+    background-color: rgb(112, 186, 189);
+}
+.block img{
+    text-align:center;
 }
 .block1 {
     float: left;
     width: 33.3%;
+    background-color:rgb(112, 186, 189);
+}
+.gdp{
+    color:whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.ftext{
+    color:whitesmoke;
+    position: absolute;
+    position: 40px 10px 5px 10px;
+    position: center;
+    font-size: 20px;
 }
