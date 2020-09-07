@@ -1,3 +1,30 @@
+body{
+    background-color: lightskyblue;
+}
+.box-1{
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
 h1{
-    color: lightskyblue;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+h2{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.box-20{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #DAA520
+}
+.box-21{
+    color: black;
 }
