@@ -8,18 +8,20 @@ body{
     text-align: center;
     text-decoration: underline;
 }
-h1{
+.section1{
     color:whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 h2{
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    text-align: center;
 }
-
+.clr{
+    clear:both;
+}
 .box-20{
     font-size: 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -27,4 +29,31 @@ h2{
 }
 .box-21{
     color: black;
+}
+.formsub{
+    color:magenta;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+label{
+    display:block;
+}
+input [type="text"] , textarea {
+    padding:8px;
+    width:20%;
+}
+.button {
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.block {
+    float: left;
+    width: 50%;
+}
+.block1 {
+    float: left;
+    width: 33.3%;
 }
