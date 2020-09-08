@@ -84,23 +84,9 @@ h2{
     color: black;
 }
 .p-box{
-    width: 400px;
-    height: 400px;
-    margin-top: 50px;
-    border: 1px solid whitesmoke;
-    background-image: url('../img/santorini-1700274_640.jpg');
-    border-radius:75%;
-    background-position: 400px 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    position:center;
-}
-.p-box1{
-    background-image: url('../img/pexels-tirachard-kumtanom-347141.jpg');
-    background-position:100%;
-    width: 400px;
-    height: 400px;
-    background-position: center;
+    position:relative;
+    text-align:center;
+    color:white;
 }
 .formsub{
     color:grey;
@@ -145,11 +131,14 @@ input [type="text"] , textarea {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
-.ftext{
-    color: white;
-    position: relative;
-    position: 40px 10px 5px 10px;
-    font-size: 20px;
+.centered{
+    position:absolute;
+    top:20%;
+    bottom:50%;
+    left:800px;
+    color:whitesmoke;
+    text-align:center;
+    font-size:30px;
 }
 .gdp{
     font-size:22px;
