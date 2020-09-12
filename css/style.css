@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    margin:0;
 }
 #main-header{
     margin:0px;
@@ -8,10 +9,10 @@ body{
     color:rgb(132, 213, 216);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-    text-align: center;
+    background-image: url('../img/iuliia-isakova-MKWooq5QEjA-unsplash.jpg');
 }
 #main-text{
-    text-align:center;
+    justify-content: center;
     font-size:30px;
     color:grey;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -53,8 +54,8 @@ body{
 }
 .container{
     widows: 100%;
-    margin:auto;
     padding-bottom:150px;
+    justify-content: center;
 }
 .section1{
     color:rgb(132, 213, 216);
@@ -62,6 +63,7 @@ body{
     font-size: 34px;
     text-align: center;
     padding:25px;
+    margin:0;
 }
 .section2{
     margin-top: 100px;
@@ -94,7 +96,7 @@ h2{
     padding: 20px;
     padding-bottom: 20px;
     background-color:rgb(132, 213, 216);
-    text-align:"right;"
+    justify-content:flex-start;
 }
 label{
     display:block;
@@ -115,6 +117,7 @@ input [type="text"] , textarea {
     float: left;
     width: 50%;
     background-color: rgb(132, 213, 216);
+    margin:0;
 }
 .block img{
     text-align:center;
