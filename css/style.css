@@ -64,7 +64,15 @@ background-color:white;
     justify-content: center;
 }
 .header1{
-    color:grey;
+    color: #82075D;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    text-align: center;
+    padding:25px;
+    margin:0;
+}
+.header2{
+    color:#82075D;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 34px;
     text-align: center;
