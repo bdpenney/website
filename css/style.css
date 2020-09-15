@@ -74,11 +74,6 @@ background-color:white;
 .clr{
     clear:both;
 }
-.box-20{
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #856107;
-}
 .footer{
     color:grey;
     text-align: center;
@@ -89,10 +84,9 @@ background-color:white;
 }
 #form{
     background-color: #006bbd;
-}
-input [type="text"] , textarea{
-    padding:8px;
-    width:20%;
+    padding-top:100px;
+    display: flex;
+    justify-content: space-between;
 }
 .button{
     background-color: grey;
@@ -100,11 +94,6 @@ input [type="text"] , textarea{
     padding: 10px 15px;
     border: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.block{
-    margin:0;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 .grid1{
     display: inline-grid;
@@ -118,6 +107,11 @@ input [type="text"] , textarea{
 .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.block{
+    margin:0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .block1{
     padding-top: 100px;
