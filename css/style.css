@@ -107,12 +107,12 @@ input [type="text"] , textarea{
     padding-top: 100px;
 }
 .grid1{
-    display:grid;
+    display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
 }
 .grid2{
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .grid3{
