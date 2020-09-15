@@ -48,8 +48,6 @@ background-color:white;
     padding-right:15px;
 }
 .container{
-    widows: 100%;
-    padding-bottom:150px;
     justify-content: center;
 }
 .header1{
@@ -102,9 +100,10 @@ input [type="text"] , textarea{
 }
 .block{
     float: left;
-    padding-left: 150px;
+    padding-left: 250px;
     margin:0;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 .grid1{
     display: inline-grid;
