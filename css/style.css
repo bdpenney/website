@@ -25,19 +25,23 @@ background-color:white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
-#navbar{
+.navbartop{
     background-color:#006bbd;
-    padding:0;
     list-style:none;
 }
-.navbartop{
-    display:flex;
+.links{
+    display: flex;
     justify-content: space-between;
+    background-color: #006bbd;
+    list-style: none;
+    color: whitesmoke;
+    font-size:20px;
 }
 #navbar li{
     display:inline;
     text-align:right;
     margin:0;
+    list-style: none;
 }
 #navbar a{
     color:whitesmoke;
@@ -46,13 +50,14 @@ background-color:white;
     text-align:center;
     list-style:none;
     text-decoration:none;
-    padding-right:15px;
 }
+
 .container{
     max-width: 960px;
     margin-right: auto;
     margin-left: auto;
 }
+
 .header1{
     color: #F6B96C;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -62,15 +67,7 @@ background-color:white;
     margin:0;
     background-color: #006bbd;
 }
-.section1{
-    color: #82075D;
-}
-.section2{
-    color: #82075D;
-}
-.section3{
-    color: #82075D;
-}
+
 .clr{
     clear:both;
 }
