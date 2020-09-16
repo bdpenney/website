@@ -37,12 +37,17 @@ background-color:white;
     color: whitesmoke;
     font-size:20px;
 }
+ul {
+    list-style: none;
+    text-decoration: none;
+}
 #navbar li{
     display:inline;
     text-align:right;
     margin:0;
     list-style: none;
 }
+
 #navbar a{
     color:whitesmoke;
     font-size: 20px;
