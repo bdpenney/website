@@ -38,7 +38,8 @@ background-color:white;
     background-color: #006bbd;
     list-style: none;
     color: whitesmoke;
-    font-size:14px;
+    font-size:10px;
+    padding-right: 15px;
 }
 
 ul {
