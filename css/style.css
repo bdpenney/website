@@ -131,3 +131,9 @@ ul {
     padding-bottom: 100px;
     
 }
+.grid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
