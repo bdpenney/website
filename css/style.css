@@ -166,6 +166,27 @@ ul {
     padding-bottom: 100px;
 }
 
+.food1{
+    background-image: url('../img/souvlaki.jpg');
+    width: 400px;
+    height: 350px;
+    background-repeat: none;
+}
+
+.food2{
+    background-image: url('../img/gyros.jpg');
+    width: 400px;
+    height: 350px;
+    background-repeat: none;
+}
+
+.food3{
+    background-image: url('../img/baklava.jpg');
+    height: 350px;
+    width: 400px;
+    background-repeat: none;
+}
+
 .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr;
