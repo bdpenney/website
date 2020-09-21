@@ -115,8 +115,11 @@ ul {
     grid-gap: 1em;
     padding-top: 100px;
     padding-bottom: 100px;
-    background-image: url("./img/cafe.jgp") left top no-repeat, url("landscape.jgp"), url("parthenon.jgp"), url("meteora.jgp"), url("mykonos.jgp"), url("oia.jgp");
-    size: 1000px, 1000px, 1000px, 1000px, 1000px, 1000px;
+}
+
+.block{
+    background-image: url("./img/cafe.jpg") left top no-repeat, url("./img/landscape.jpg"), url("./img/meteora.jpg"), url("./img/mykonos.jpg"), url("./img/oia.jpg"), url("./img/parthenon.jpg");
+    size: 100px, 100px, 100px, 100px, 100px, 100px;
 }
 
 .grid2{
