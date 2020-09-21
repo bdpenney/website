@@ -111,40 +111,52 @@ ul {
 
 .grid1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
     padding-top: 100px;
     padding-bottom: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
 }
 
 .block1{
     background-image: url('../img/cafe.jpg');
-    size: 500px;
+    background-repeat: none;
+    size: 1000px;
+    height: 400px;
 }
 
 .block2{
     background-image: url('../img/landscape.jpg');
-    size: 500px;
+    size: 1000px;
+    height: 400px;
+    background-repeat: none;
 }
 
 .block3{
     background-image: url('../img/meteora.jpg');
     size: 500px;
+    height: 400px;
+    background-repeat: none;
 }
 
 .block4{
     background-image: url('../img/mykonos.jpg');
     size: 500px;
+    height: 400px;
+    background-repeat: none;
 }
 
 .block5{
     background-image: url('../img/oia.jpg');
     size: 500px;
+    height: 400px;
+    background-repeat: none;
 }
 
 .block6{
     background-image: url('../img/parthenon.jpg');
     size: 500px;
+    height: 400px;
+    background-repeat: none;
 }
 .grid2{
     display: grid;
