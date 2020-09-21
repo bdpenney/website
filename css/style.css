@@ -118,8 +118,8 @@ ul {
 }
 
 #block{
-    background-image: url("./img/cafe.jpg") left top no-repeat, url("./img/landscape.jpg"), url("./img/meteora.jpg"), url("./img/mykonos.jpg"), url("./img/oia.jpg"), url("./img/parthenon.jpg");
-    size: 500px, 500px, 500px, 500px, 500px, 500px;
+    background-image: url('../img/cafe.jpg') left top no-repeat, url('../img/landscape.jpg'), url('../img/meteora.jpg'), url('../img/mykonos.jpg'), url('../img/oia.jpg'), url('../img/parthenon.jpg');
+    background-size: 500px, 500px, 500px, 500px, 500px, 500px;
 }
 
 .grid2{
