@@ -10,7 +10,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     background-image: url('../img/heidi-kaden-kYxgm42SQso-unsplash.jpg');
-    background-size: 3000px 3500px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -30,6 +30,7 @@ background-color:white;
 .navbartop{
     background-color:#006bbd;
     list-style:none;
+    word-spacing: 4px;
 }
 
 .links{
@@ -80,6 +81,13 @@ ul {
     background-color: #006bbd;
 }
 
+.sectiontext{
+    color: #82075D;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
 .clr{
     clear:both;
 }
@@ -92,6 +100,7 @@ ul {
 .formsub{
     color:grey;
     padding-bottom: 20px;
+    font-size: 16px;
 }
 
 #form{
@@ -101,6 +110,18 @@ ul {
     justify-content: space-around;
     padding-right: 15x;
     padding-left: 15px;
+}
+
+.form-group{
+    padding-top: 30px;
+    padding-right: 80px;
+}
+
+.formsize{
+    width: 75%;
+    height: 20px;
+    font-weight: 100;
+    box-shadow: none;
 }
 
 .button{
@@ -113,24 +134,22 @@ ul {
 
 .grid1{
     display: grid;
-    padding-top: 100px;
     padding-bottom: 100px;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
 }
 
 .block1{
     background-image: url('../img/cafe.jpg');
     background-size: cover;
     background-repeat: none;
-    size: 1000px;
+    width: 480px;
     height: 400px;
 }
 
 .block2{
     background-image: url('../img/landscape.jpg');
     background-size: cover;
-    width: 500px;
+    width: 480px;
     height: 400px;
     background-repeat: none;
 }
@@ -138,7 +157,7 @@ ul {
 .block3{
     background-image: url('../img/meteora.jpg');
     background-size: cover;
-    size: 500px;
+    width: 480px;
     height: 400px;
     background-repeat: none;
 }
@@ -146,7 +165,7 @@ ul {
 .block4{
     background-image: url('../img/mykonos.jpg');
     background-size: cover;
-    size: 500px;
+    width: 480px;
     height: 400px;
     background-repeat: none;
 }
@@ -162,24 +181,21 @@ ul {
 .block6{
     background-image: url('../img/parthenon.jpg');
     background-size: cover;
-    size: 500px;
+    width: 480px;
     height: 400px;
     background-repeat: none;
 }
 .grid2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    padding-top: 100px;
     padding-bottom: 100px;
-    padding-right: 50px;
 }
 
 .food1{
     background-image: url('../img/souvlaki.jpg');
     background-repeat: none;
     background-size: cover;
-    width: 500px;
+    width: 480px;
     height: 400px;
     background-repeat: none;
 }
@@ -188,7 +204,7 @@ ul {
     background-image: url('../img/gyros.jpg');
     background-repeat: none;
     background-size: cover;
-    width: 500px;
+    width: 480px;
     height: 400px;
     background-repeat: none;
 }
@@ -198,7 +214,7 @@ ul {
     background-repeat: none;
     background-size: cover;
     height: 400px;
-    width: 500px;
+    width: 480px;
     background-repeat: none;
 }
 
@@ -207,15 +223,13 @@ ul {
     background-repeat: none;
     background-size: cover;
     height: 400px;
-    width: 500px;
+    width: 480px;
     background-repeat: none;
 }
 
 .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    padding-top: 100px;
     padding-bottom: 100px;
 }
 
@@ -223,7 +237,7 @@ ul {
     background-image: url('../img/beach1.jpg');
     background-size: cover;
     height: 350px;
-    width: 400px;
+    width: 480px;
     background-repeat: none;
 }
 
@@ -231,7 +245,7 @@ ul {
     background-image: url('../img/beach2.jpg');
     background-size: cover;
     height: 350px;
-    width: 400px;
+    width: 480px;
     background-repeat: none;
 }
 
@@ -239,7 +253,7 @@ ul {
     background-image: url('../img/beach3.jpg');
     background-size: cover;
     height: 350px;
-    width: 400px;
+    width: 480px;
     background-repeat: none;
 }
 
@@ -247,7 +261,7 @@ ul {
     background-image: url('../img/beach4.jpg');
     background-size: cover;
     height: 350px;
-    width: 400px;
+    width: 480px;
     background-repeat: none;
 }
 
@@ -266,13 +280,14 @@ ul {
     color: #006bbd;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 15px;
 }
 
 .img1{
     background-image: url('../img/blog1.jpg');
     background-size: cover;
     height: 350px;
-    width: 350px;
+    width: 308px;
     position: relative;
     border: 3px solid #006bbd;
 }
@@ -281,7 +296,7 @@ ul {
     background-image: url('../img/blog2.jpg');
     background-size: cover;
     height: 350px;
-    width: 350px;
+    width: 308px;
     position: relative;
     border: 3px solid #006bbd;
 }
@@ -290,7 +305,7 @@ ul {
     background-image: url('../img/blog3.jpg');
     background-size: cover;
     height: 350px;
-    width: 350px;
+    width: 308px;
     position: relative;
     border: 3px solid #006bbd;
 }
