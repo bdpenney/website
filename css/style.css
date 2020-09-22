@@ -96,7 +96,7 @@ ul {
 
 #form{
     background-color: #006bbd;
-    padding-top:100px;
+    padding-top:200px;
     display: flex;
     justify-content: space-between;
     padding-right: 15x;
@@ -171,14 +171,14 @@ ul {
 
 .food1{
     background-image: url('../img/souvlaki.jpg');
-    width: 400px;
+    width: 350px;
     height: 350px;
     background-repeat: none;
 }
 
 .food2{
     background-image: url('../img/gyros.jpg');
-    width: 400px;
+    width: 350px;
     height: 350px;
     background-repeat: none;
 }
@@ -186,7 +186,7 @@ ul {
 .food3{
     background-image: url('../img/baklava.jpg');
     height: 350px;
-    width: 400px;
+    width: 350px;
     background-repeat: none;
 }
 
