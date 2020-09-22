@@ -274,6 +274,7 @@ ul {
     height: 350px;
     width: 350px;
     position: relative;
+    border: 3px solid #006bbd;
 }
 
 .img2{
@@ -282,6 +283,7 @@ ul {
     height: 350px;
     width: 350px;
     position: relative;
+    border: 3px solid #006bbd;
 }
 
 .img3{
@@ -290,6 +292,7 @@ ul {
     height: 350px;
     width: 350px;
     position: relative;
+    border: 3px solid #006bbd;
 }
 
 .imgtext{
