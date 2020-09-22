@@ -128,7 +128,7 @@ ul {
 
 .block2{
     background-image: url('../img/landscape.jpg');
-    size: 1000px;
+    width: 500px;
     height: 400px;
     background-repeat: none;
 }
@@ -171,29 +171,29 @@ ul {
 
 .food1{
     background-image: url('../img/souvlaki.jpg');
-    width: 350px;
+    width: 500px;
     height: 350px;
     background-repeat: none;
 }
 
 .food2{
     background-image: url('../img/gyros.jpg');
-    width: 350px;
+    width: 500px;
     height: 350px;
     background-repeat: none;
 }
 
 .food3{
     background-image: url('../img/baklava.jpg');
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 500px;
     background-repeat: none;
 }
 
 .food4{
     background-image: url('../img/greeksalad.jpg');
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 500px;
     background-repeat: none;
 }
 
