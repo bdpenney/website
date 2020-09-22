@@ -96,9 +96,9 @@ ul {
 
 #form{
     background-color: #006bbd;
-    padding-top:200px;
+    padding-top:100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-right: 15x;
     padding-left: 15px;
 }
@@ -121,6 +121,7 @@ ul {
 
 .block1{
     background-image: url('../img/cafe.jpg');
+    background-size: cover;
     background-repeat: none;
     size: 1000px;
     height: 400px;
@@ -128,6 +129,7 @@ ul {
 
 .block2{
     background-image: url('../img/landscape.jpg');
+    background-size: cover;
     width: 500px;
     height: 400px;
     background-repeat: none;
@@ -135,6 +137,7 @@ ul {
 
 .block3{
     background-image: url('../img/meteora.jpg');
+    background-size: cover;
     size: 500px;
     height: 400px;
     background-repeat: none;
@@ -142,6 +145,7 @@ ul {
 
 .block4{
     background-image: url('../img/mykonos.jpg');
+    background-size: cover;
     size: 500px;
     height: 400px;
     background-repeat: none;
@@ -149,6 +153,7 @@ ul {
 
 .block5{
     background-image: url('../img/oia.jpg');
+    background-size: cover;
     size: 500px;
     height: 400px;
     background-repeat: none;
@@ -156,6 +161,7 @@ ul {
 
 .block6{
     background-image: url('../img/parthenon.jpg');
+    background-size: cover;
     size: 500px;
     height: 400px;
     background-repeat: none;
@@ -171,20 +177,26 @@ ul {
 
 .food1{
     background-image: url('../img/souvlaki.jpg');
+    background-repeat: none;
+    background-size: cover;
     width: 500px;
-    height: 350px;
+    height: 400px;
     background-repeat: none;
 }
 
 .food2{
     background-image: url('../img/gyros.jpg');
+    background-repeat: none;
+    background-size: cover;
     width: 500px;
-    height: 350px;
+    height: 400px;
     background-repeat: none;
 }
 
 .food3{
     background-image: url('../img/baklava.jpg');
+    background-repeat: none;
+    background-size: cover;
     height: 400px;
     width: 500px;
     background-repeat: none;
@@ -192,6 +204,8 @@ ul {
 
 .food4{
     background-image: url('../img/greeksalad.jpg');
+    background-repeat: none;
+    background-size: cover;
     height: 400px;
     width: 500px;
     background-repeat: none;
@@ -203,11 +217,11 @@ ul {
     grid-gap: 1em;
     padding-top: 100px;
     padding-bottom: 100px;
-    
 }
 
 .beach1{
     background-image: url('../img/beach1.jpg');
+    background-size: cover;
     height: 350px;
     width: 400px;
     background-repeat: none;
@@ -215,6 +229,7 @@ ul {
 
 .beach2{
     background-image: url('../img/beach2.jpg');
+    background-size: cover;
     height: 350px;
     width: 400px;
     background-repeat: none;
@@ -222,6 +237,7 @@ ul {
 
 .beach3{
     background-image: url('../img/beach3.jpg');
+    background-size: cover;
     height: 350px;
     width: 400px;
     background-repeat: none;
@@ -229,6 +245,7 @@ ul {
 
 .beach4{
     background-image: url('../img/beach4.jpg');
+    background-size: cover;
     height: 350px;
     width: 400px;
     background-repeat: none;
@@ -239,4 +256,49 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.blogsec{
+    border: 3px solid #006bbd;
+}
+
+.blogtext{
+    color: #006bbd;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img1{
+    background-image: url('../img/blog1.jpg');
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    position: relative;
+}
+
+.img2{
+    background-image: url('../img/blog2.jpg');
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    position: relative;
+}
+
+.img3{
+    background-image: url('../img/blog3.jpg');
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    position: relative;
+}
+
+.imgtext{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    border: 3px solid whitesmoke;
+    background-color: #006bbd;
 }
