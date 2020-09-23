@@ -103,9 +103,9 @@
             <div class="container">
                 <div class="grid4">
                     <div class="blogsec">
-                        <div class="img1">
-                            <div class="imgtext">
-                                <p>Ruins</p>
+                        <div class="img1 imgblog">
+                            <div>
+                                <p class="imgtext">Ruins</p>
                             </div>
                         </div>
                         <div>
@@ -113,9 +113,9 @@
                         </div>
                     </div> 
                     <div class="blogsec">
-                        <div class="img2">
-                            <div class="imgtext">
-                                <p>City</p>
+                        <div class="img2 imgblog">
+                            <div>
+                                <p class="imgtext">City</p>
                             </div>
                         </div>
                         <div>
@@ -123,9 +123,9 @@
                         </div>
                     </div> 
                     <div class="blogsec">
-                         <div class="img3">
-                             <div class="imgtext">
-                                <p>Landscape</p>
+                         <div class="img3 imgblog">
+                             <div>
+                                <p class="imgtext">Landscape</p>
                             </div>
                         </div>
                         <div>
@@ -145,17 +145,19 @@
             <div class="container">
                 <div id="form">
                     <img src="img/santorini-1700274_640.jpg" width="60%" height="100%" alt="Santorini Skyline">
-                    <form action="process.php" method="POST" class="form-group">
-                        <div class="formsub">
-                            <input type="text" name="Name" placeholder="Name" class="formsize">
-                            <br>
-                            <input type="email" name="E-mail" placeholder="E-mail" class="formsize">
-                            <br>
-                            <textarea name="Message" placeholder="Enter your message here"></textarea>
-                            <br>
-                            <input class="button" type="submit" name="submit" value="Submit">
-                        </div>
-                    </form>
+                    <div class="formgroup">
+                        <form action="process.php" method="POST">
+                            <div class="formsub">
+                                <input type="text" name="Name" placeholder="Name" class="formsize">
+                                <br>
+                                <input type="email" name="E-mail" placeholder="E-mail" class="formsize">
+                                <br>
+                                <textarea name="Message" placeholder="Enter your message here" class="formsize"></textarea>
+                                <br>
+                                <input class="button" type="submit" name="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
