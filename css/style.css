@@ -191,40 +191,27 @@ ul {
     padding-bottom: 100px;
 }
 
-.food1{
-    background-image: url('../img/souvlaki.jpg');
+.foodimg{
     background-repeat: none;
     background-size: cover;
-    width: 480px;
     height: 400px;
     background-repeat: none;
+    background-position: center;
+}
+.food1{
+    background-image: url('../img/souvlaki.jpg');
 }
 
 .food2{
     background-image: url('../img/gyros.jpg');
-    background-repeat: none;
-    background-size: cover;
-    width: 480px;
-    height: 400px;
-    background-repeat: none;
 }
 
 .food3{
     background-image: url('../img/baklava.jpg');
-    background-repeat: none;
-    background-size: cover;
-    height: 400px;
-    width: 480px;
-    background-repeat: none;
 }
 
 .food4{
     background-image: url('../img/greeksalad.jpg');
-    background-repeat: none;
-    background-size: cover;
-    height: 400px;
-    width: 480px;
-    background-repeat: none;
 }
 
 .grid3{
@@ -233,36 +220,26 @@ ul {
     padding-bottom: 100px;
 }
 
+.beachimg{
+    background-size:cover;
+    height: 350px;
+    background-repeat: none;
+    background-position: center;
+}
 .beach1{
     background-image: url('../img/beach1.jpg');
-    background-size: cover;
-    height: 350px;
-    width: 480px;
-    background-repeat: none;
 }
 
 .beach2{
     background-image: url('../img/beach2.jpg');
-    background-size: cover;
-    height: 350px;
-    width: 480px;
-    background-repeat: none;
 }
 
 .beach3{
     background-image: url('../img/beach3.jpg');
-    background-size: cover;
-    height: 350px;
-    width: 480px;
-    background-repeat: none;
 }
 
 .beach4{
     background-image: url('../img/beach4.jpg');
-    background-size: cover;
-    height: 350px;
-    width: 480px;
-    background-repeat: none;
 }
 
 .grid4{
@@ -287,27 +264,21 @@ ul {
     background-image: url('../img/blog1.jpg');
     background-size: cover;
     height: 350px;
-    width: 308px;
     position: relative;
-    border: 3px solid #006bbd;
 }
 
 .img2{
     background-image: url('../img/blog2.jpg');
     background-size: cover;
     height: 350px;
-    width: 308px;
     position: relative;
-    border: 3px solid #006bbd;
 }
 
 .img3{
     background-image: url('../img/blog3.jpg');
     background-size: cover;
     height: 350px;
-    width: 308px;
     position: relative;
-    border: 3px solid #006bbd;
 }
 
 .imgtext{
