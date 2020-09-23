@@ -2,20 +2,25 @@ body{
     background-color: white;
     margin:0;
 }
+
 #main-header{
     margin:0px;
     padding-bottom:350px;
-    text-align: center;
     color: #F6B96C;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-    background-image: url('../img/heidi-kaden-kYxgm42SQso-unsplash.jpg');
+    background-image: url('../img/coverphoto.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 65vh;
+    position: relative;
 }
-.main-headertext{
-background-color:white;
+
+.mainheadertext{
+    position: absolute;
+    bottom: 400px;
+    left: 500px;
 }
 
 #main-text{
