@@ -18,9 +18,9 @@ body{
 }
 
 .mainheadertext{
-    position: absolute;
-    bottom: 400px;
-    left: 500px;
+   left: 500px;
+   bottom: 500px;
+   position: absolute;
 }
 
 #main-text{
