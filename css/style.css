@@ -41,7 +41,9 @@ body{
 .links{
     display: flex;
     justify-content: space-between;
-    background-color: #006bbd;
+    background-image: url('../img/waterbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     list-style: none;
     color: whitesmoke;
     font-size:10px;
@@ -88,7 +90,9 @@ ul {
     text-align: center;
     padding:25px;
     margin:0;
-    background-color: #006bbd;
+    background-image: url('../img/waterbanner.jpg');
+    background-repeat: none;
+    background-size: cover;
 }
 
 .sectiontext{
@@ -96,6 +100,13 @@ ul {
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+
+.infoheader{
+    background-image: url('../img/waterbanner.jpg');
+    background-repeat: none;
+    background-size: cover;
+    width: 100vh;
 }
 
 .clr{
@@ -114,7 +125,9 @@ ul {
 }
 
 #form{
-    background-color: #006bbd;
+    background-image: url('../img/waterbanner.jpg'); 
+    background-repeat: none;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -209,34 +222,6 @@ ul {
     background-image: url('../img/greeksalad.jpg');
 }
 
-.grid3{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 100px;
-}
-
-.beachimg{
-    background-size:cover;
-    height: 350px;
-    background-repeat: none;
-    background-position: center;
-}
-.beach1{
-    background-image: url('../img/beach1.jpg');
-}
-
-.beach2{
-    background-image: url('../img/beach2.jpg');
-}
-
-.beach3{
-    background-image: url('../img/beach3.jpg');
-}
-
-.beach4{
-    background-image: url('../img/beach4.jpg');
-}
-
 .grid4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -244,9 +229,6 @@ ul {
     padding-bottom: 100px;
 }
 
-.blogsec{
-    border: 3px solid #006bbd;
-}
 
 .blogtext{
     color: #006bbd;
