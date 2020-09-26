@@ -76,6 +76,11 @@ ul {
     margin-left: auto;
 }
 
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .header1{
     color: #F6B96C;
     font-family: Georgia, 'Times New Roman', Times, serif;
