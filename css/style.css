@@ -9,6 +9,7 @@ body{
 .list{
     text-decoration: none;
     list-style: url('../img/twitter-3-24.png');
+    margin: 0;
 }
 
 .banner{
@@ -304,7 +305,7 @@ body{
 /* ================================================================================ */
 /*Media Resizing*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     
     .grid1{
         width: 100%;
@@ -314,6 +315,15 @@ body{
         float:left;
         padding:20px;
         text-align: center;
+    }
+
+    .grid4{
+        display: grid;
+        grid-template-columns: repeat(1 1fr);
+    }
+
+    .img-social{
+        display: inline-block;
     }
 
 }
