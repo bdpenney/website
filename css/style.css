@@ -191,6 +191,7 @@ body{
 
 .btext{
     color:white;
+    text-align: center;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -313,7 +314,7 @@ body{
 
     .mobileonly{
         float:left;
-        padding:20px;
+        padding:10px;
         text-align: center;
     }
 
@@ -323,7 +324,9 @@ body{
     }
 
     .img-social{
-        display: inline-block;
+        float:left;
+        padding:10px;
+        text-align: center;
     }
 
 }
