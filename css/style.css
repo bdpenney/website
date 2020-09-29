@@ -94,22 +94,36 @@ body{
 
 .sectiontext{
     color: #82075D;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+}
+
+.texthead{
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .infoheader{
     background-image: url('../img/waterbanner.jpg');
     background-repeat: none;
     background-size: cover;
-    padding-top: 50px;
+    padding: 20px;
 }
 
 .btext{
     color:white;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.floatheader{
+    color:#82075D;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
 }
 
 .clr{
@@ -149,6 +163,7 @@ body{
 .formgroup{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 40%;
 }
 
@@ -170,7 +185,7 @@ body{
     background-size: cover;
     background-repeat: none;
     background-position: center;
-    height: 200px; 
+    height: 250px; 
 }
 
 .block1{
@@ -198,40 +213,16 @@ body{
 }
 
 .grid2{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 100px;
-}
-
-.foodimg{
-    background-repeat: none;
-    background-size: cover;
-    height: 400px;
-    background-repeat: none;
-    background-position: center;
-}
-
-.food1{
-    background-image: url('../img/souvlaki.jpg');
-}
-
-.food2{
-    background-image: url('../img/gyros.jpg');
-}
-
-.food3{
-    background-image: url('../img/baklava.jpg');
-}
-
-.food4{
-    background-image: url('../img/greeksalad.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
 
 .grid4{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 20px;
 }
 
 .blogtext{
