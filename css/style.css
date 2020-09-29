@@ -33,26 +33,22 @@ body{
 }
 
 .navbartop{
-    background-color:#006bbd;
+    background-image: url('../img/waterbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     list-style:none;
     word-spacing: 4px;
+    padding: 20px;
 }
 
 .links{
     display: flex;
     justify-content: space-between;
-    background-image: url('../img/waterbanner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     list-style: none;
+    text-decoration: none;
     color: whitesmoke;
     font-size:10px;
     padding-right: 15px;
-}
-
-ul {
-    list-style: none;
-    text-decoration: none;
 }
 
 .navbartop li{
@@ -107,6 +103,13 @@ ul {
     background-image: url('../img/waterbanner.jpg');
     background-repeat: none;
     background-size: cover;
+    padding-top: 50px;
+}
+
+.btext{
+    color:white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .clr{
@@ -193,6 +196,7 @@ ul {
 .block6{
     background-image: url('../img/parthenon.jpg');
 }
+
 .grid2{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -206,6 +210,7 @@ ul {
     background-repeat: none;
     background-position: center;
 }
+
 .food1{
     background-image: url('../img/souvlaki.jpg');
 }
@@ -229,7 +234,6 @@ ul {
     padding-bottom: 100px;
 }
 
-
 .blogtext{
     color: #006bbd;
     font-size: 20px;
@@ -243,6 +247,7 @@ ul {
     position: relative;
     background-position: center;
 }
+
 .img1{
     background-image: url('../img/blog1.jpg');
 }
