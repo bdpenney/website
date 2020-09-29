@@ -3,39 +3,56 @@ body{
     margin:0;
 }
 
-#main-header{
-    margin:0px;
-    padding-bottom:350px;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    background-image: url('../img/coverphoto.jpg');
+/* ================================================================================ */
+/*Basic Styling*/
+
+.list{
+    text-decoration: none;
+    list-style: none;
+}
+
+.banner{
+    background-image: url('../img/waterbanner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 65vh;
-    position: relative;
 }
 
-.mainheadertext{
-   left: 500px;
-   bottom: 500px;
-   position: absolute;
+.container{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#main-text{
+.flex{
     display: flex;
-    justify-content: center;
-    font-size:30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    text-align: center;
+    padding:25px;
+    margin:0;
+}
+
+.sectiontext{
     color: #82075D;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
+.clr{
+    clear:both;
+}
+
+/* ================================================================================ */
+/*Navigation bar*/
+
 .navbartop{
-    background-image: url('../img/waterbanner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     list-style:none;
     word-spacing: 4px;
     padding: 20px;
@@ -68,112 +85,40 @@ body{
     text-decoration:none;
 }
 
-.container{
-    max-width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-}
+/* ================================================================================ */
+/*Hero Section*/
 
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.header1{
+#main-header{
+    margin:0px;
+    padding-bottom:350px;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 34px;
-    text-align: center;
-    padding:25px;
-    margin:0;
-    background-image: url('../img/waterbanner.jpg');
-    background-repeat: none;
-    background-size: cover;
-}
-
-.sectiontext{
-    color: #82075D;
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.texthead{
-    color: white;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.infoheader{
-    background-image: url('../img/waterbanner.jpg');
-    background-repeat: none;
-    background-size: cover;
-    padding: 20px;
-}
-
-.btext{
-    color:white;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.floatheader{
-    color:#82075D;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('../img/coverphoto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65vh;
+    position: relative;
+}
+
+.mainheadertext{
+   left: 500px;
+   bottom: 500px;
+   position: absolute;
+}
+
+#main-text{
     display: flex;
     justify-content: center;
-}
-
-.clr{
-    clear:both;
-}
-
-.footer{
-    color:grey;
+    font-size:30px;
+    color: #82075D;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
-.formsub{
-    color:grey;
-    padding-bottom: 20px;
-    font-size: 16px;
-}
-
-#form{
-    background-image: url('../img/waterbanner.jpg'); 
-    background-repeat: none;
-    background-size: cover;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0;
-}
-
-.formsize{
-    width: 100%;
-    height: 20px;
-    padding: 5px;
-    margin: 5px;
-    border: none;
-    box-shadow: none;
-}
-
-.formgroup{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-}
-
-.button{
-    background-color: grey;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+/* ================================================================================ */
+/*Photo Grid Section*/
 
 .grid1{
     display: grid;
@@ -212,12 +157,43 @@ body{
     background-image: url('../img/parthenon.jpg');
 }
 
+
+/* ================================================================================ */
+/*Food Banner Section*/
+
 .grid2{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 25px;
 }
+
+.texthead{
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.infoheader{
+    padding: 20px;
+}
+
+.btext{
+    color:white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.floatheader{
+    color:#82075D;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* ================================================================================ */
+/*Blog Section*/
 
 .grid4{
     display: grid;
@@ -261,3 +237,60 @@ body{
     background-color: #006bbd;
     padding: 5px;
 }
+
+/* ================================================================================ */
+/*Form Section*/
+
+.formsub{
+    color:grey;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+#form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.formsize{
+    width: 100%;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    box-shadow: none;
+}
+
+.formgroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.button{
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ================================================================================ */
+/*Footer Section*/
+
+.footersec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer{
+    color:grey;
+    text-align: center;
+}
+
+/* ================================================================================ */
+/*Media Resizing*/
