@@ -284,10 +284,11 @@ body{
 /*Footer Section*/
 
 .footersec{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
+    padding:20px;
 }
 
 .footer{
@@ -310,7 +311,9 @@ body{
     }
 
     .mobileonly{
-        display: inline-block;
+        float:left;
+        padding:20px;
+        text-align: center;
     }
 
 }
