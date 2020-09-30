@@ -66,7 +66,7 @@ body{
     text-decoration: none;
     color: whitesmoke;
     font-size:10px;
-    padding-right: 15px;
+    margin: 0;
 }
 
 .navbartop li{
@@ -303,7 +303,7 @@ body{
 }
 
 .footer{
-    color:grey;
+    color: #284177;
     text-align: center;
 }
 
@@ -315,27 +315,19 @@ body{
 /* ================================================================================ */
 /*Media Resizing*/
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     
     .grid1{
         width: 100%;
     }
 
-    .mobileonly{
-        float:left;
-        padding:10px;
-        text-align: center;
-    }
-
     .grid4{
-        display: grid;
-        grid-template-columns: repeat(1 1fr);
+        display: flex;
+        flex-direction: column;
     }
 
-    .img-social{
-        float:left;
-        padding:10px;
-        text-align: center;
+    .reducescreen{
+        display: flex;
+        flex-direction: column;
     }
-
 }
