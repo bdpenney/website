@@ -323,4 +323,36 @@ body{
         display: flex;
         flex-direction: column;
     }
+
+    #main-header{
+        font-size: 24px;
+    }
+
+    #main-text{
+        font-size: 20px;
+    }
+
+    .header1{
+        font-size: 18px;
+    }
+
+    .btext{
+        font-size: 16px;
+    }
+
+    .floatheader{
+        font-size: 18px;
+    }
+
+    .sectiontext{
+        font-size: 16px;
+    }
+
+    .imgtext{
+        font-size: 14px;
+    }
+    
+    .blogtext{
+        font-size: 14px;
+    }
 }
